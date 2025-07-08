@@ -1,0 +1,34 @@
+/**
+ * Helper animation classes
+ * @version 1.0.0
+ */
+
+.with-animation-text-reveal {
+	overflow: hidden;
+	display: inline-block;
+
+	&__word {
+		display: inline-block;
+		white-space: nowrap;
+	}
+
+	&__char {
+		display: inline-block;
+		transform: translateY(100%);
+		opacity: 0;
+	}
+}
+
+
+
+// src/scss/components/_image-reveal.scss
+.with-animation-image-reveal {
+	overflow: hidden;
+	display: block;
+
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}

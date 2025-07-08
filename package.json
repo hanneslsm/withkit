@@ -37,6 +37,6 @@
 		"webpack-remove-empty-scripts": "^1.0.4"
 	},
 	"dependencies": {
-		"gsap": "^3.12.5"
+		"gsap": "file:gsap-bonus.tgz"
 	}
 }

@@ -8,41 +8,41 @@
  * Shadows
  * ============================================================== */
 
-.on-hover-shadow-x-small {
+.with-hover-shadow-x-small {
 	transition: box-shadow 200ms linear;
 	&:hover {
 		box-shadow: var(--wp--preset--shadow--x-small);
 	}
 }
 
-.on-hover-shadow-small {
+.with-hover-shadow-small {
 	transition: box-shadow 200ms linear;
 	&:hover {
 		box-shadow: var(--wp--preset--shadow--small);
 	}
 }
 
-.on-hover-shadow-medium {
+.with-hover-shadow-medium {
 	transition: box-shadow 200ms linear;
 	&:hover {
 		box-shadow: var(--wp--preset--shadow--medium);
 	}
 }
 
-.on-hover-shadow-large {
+.with-hover-shadow-large {
 	&:hover {
 		box-shadow: var(--wp--preset--shadow--large);
 	}
 }
 
-.on-hover-shadow-x-large {
+.with-hover-shadow-x-large {
 	transition: box-shadow 200ms linear;
 	&:hover {
 		box-shadow: var(--wp--preset--shadow--x-large);
 	}
 }
 
-.on-hover-shadow-xx-large {
+.with-hover-shadow-xx-large {
 	transition: box-shadow 200ms linear;
 	&:hover {
 		box-shadow: var(--wp--preset--shadow--xx-large);
@@ -55,7 +55,7 @@
  * inspired by https://codepen.io/jackdomleo7/pen/XWmzeNb
  * ============================================================== */
 
-.on-hover-shine {
+.with-hover-shine {
 	position: relative;
 	overflow: hidden;
 	cursor: auto;
@@ -95,7 +95,7 @@
 /**
  * Scale Effect
  * ============================================================== */
-.on-hover-scale {
+.with-hover-scale {
 	transition: transform 0.2s linear;
 	transform-origin: bottom;
 	&:hover {
