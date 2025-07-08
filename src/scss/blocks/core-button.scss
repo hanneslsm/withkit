@@ -1,0 +1,17 @@
+///
+/// Button
+///
+
+/* General: Buttons Styling
+--------------------------------------------- */
+.wp-block-button > .wp-block-button__link {
+	transition: all 200ms ease-in-out;
+
+	&:hover {
+		box-shadow: var(--wp--preset--shadow--medium);
+	}
+
+	&:active {
+		scale: (0.98);
+	}
+}
