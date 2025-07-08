@@ -99,6 +99,37 @@
 }
 
 /**
+ * Title: Text Shadow
+ * Description: contrast-3 as shadow color
+ **/
+.with-text-shadow-x-small {
+	text-shadow: 0 1px 2px var(--wp--preset--color--contrast-3);
+}
+.with-text-shadow-small {
+	text-shadow:
+		0 1px 3px var(--wp--preset--color--contrast-3),
+		0 1px 2px var(--wp--preset--color--contrast-3);
+}
+.with-text-shadow-medium {
+	text-shadow:
+		0 4px 6px var(--wp--preset--color--contrast-3),
+		0 2px 4px var(--wp--preset--color--contrast-3);
+}
+.with-text-shadow-large {
+	text-shadow:
+		0 10px 15px var(--wp--preset--color--contrast-3),
+		0 4px 6px var(--wp--preset--color--contrast-3);
+}
+.with-text-shadow-x-large {
+	text-shadow:
+		0 20px 25px var(--wp--preset--color--contrast-3),
+		0 8px 10px var(--wp--preset--color--contrast-3);
+}
+.with-text-shadow-xx-large {
+	text-shadow: 0 25px 50px var(--wp--preset--color--contrast-3);
+}
+
+/**
  * Title: Height
  **/
 .with-max-height-none {
@@ -141,8 +172,6 @@
 // $mode accepts either min or max to switch between `min-width` and `max-width`.
 @mixin responsive-styles($breakpoint, $prefix, $mode: max) {
 	@media screen and (#{ $mode }-width: $breakpoint) {
-
-
 		/**
  		* Title: Dev Tools
  		**/
