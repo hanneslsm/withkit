@@ -36,35 +36,35 @@ add_action('init', 'withkit_register_pattern_categories', 1);
 function withkit_register_pattern_categories()
 {
 	register_block_pattern_category('withkit/layout-a', [
-		'label'       => __('Layout A', 'withkit'),
+		'label'       => __('With: Layout A', 'withkit'),
 		'description' => __('Layouts with wide heading and content', 'withkit'),
 	]);
 	register_block_pattern_category('withkit/layout-b', [
-		'label'       => __('Layout B (Two Colums)', 'withkit'),
+		'label'       => __('With: Layout B (Two Colums)', 'withkit'),
 		'description' => __('Two Column Layouts with heading and content aligned on top', 'withkit'),
 	]);
 	register_block_pattern_category('withkit/layout-c', [
-		'label'       => __('Layout C (Two Colums)', 'withkit'),
+		'label'       => __('With: Layout C (Two Colums)', 'withkit'),
 		'description' => __('Two Column Layouts with heading and content center aligned', 'withkit'),
 	]);
 	register_block_pattern_category('withkit/components', [
-		'label'       => __('Components', 'withkit'),
+		'label'       => __('With: Components', 'withkit'),
 		'description' => __('Single components for specific use.', 'withkit'),
 	]);
 	register_block_pattern_category('withkit/cards', [
-		'label'       => __('Cards', 'withkit'),
+		'label'       => __('With: Cards', 'withkit'),
 		'description' => __('Generic card layouts.', 'withkit'),
 	]);
 	register_block_pattern_category('withkit/faq', [
-		'label'       => __('FAQ', 'withkit'),
+		'label'       => __('With: FAQ', 'withkit'),
 		'description' => __('Layout for the FAQ Section.', 'withkit'),
 	]);
 	register_block_pattern_category('withkit/heros', [
-		'label'       => __('Heros', 'withkit'),
+		'label'       => __('With: Heros', 'withkit'),
 		'description' => __('Layouts for the homepage above the fold.', 'withkit'),
 	]);
 		register_block_pattern_category('withkit/sticky', [
-		'label'       => __('Sticky', 'withkit'),
+		'label'       => __('With: Sticky', 'withkit'),
 		'description' => __('Layouts with sticky parts.', 'withkit'),
 	]);
 }
