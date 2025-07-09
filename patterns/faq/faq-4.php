@@ -7,7 +7,7 @@
  * Description: FAQ section
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Section"},"align":"full","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:spacer {"height":"var:preset|spacing|40"} -->
 <div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
