@@ -31,7 +31,6 @@ Thumbs.db
 
 # Build Systems
 node_modules/
-build/
 *.css.map
 .vscode
 
