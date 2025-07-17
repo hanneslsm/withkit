@@ -1,9 +1,9 @@
 <?php
-
 /**
  * Block Variations Setup
  *
  * @package withkit
+ * @since 0.1.0
  * @link https://developer.wordpress.org/block-editor/reference-guides/block-api/block-variations/
  */
 

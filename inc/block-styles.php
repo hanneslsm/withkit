@@ -1,7 +1,12 @@
 <?php
 /**
+ * Block Styles Setup
+ *
  * Register block-style variations and link them to the handles
  * created in enqueuing.php
+ *
+ * @package withkit
+ * @since 0.1.0
  */
 
 add_action( 'init', 'withkit_register_block_style_variations', 10 );

@@ -4,6 +4,7 @@
  * Patterns Setup
  *
  * @package withkit
+ * @since 0.1.0
  */
 
 
