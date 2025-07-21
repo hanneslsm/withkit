@@ -36,35 +36,35 @@ add_action('init', 'withkit_register_pattern_categories', 1);
 
 function withkit_register_pattern_categories()
 {
-	register_block_pattern_category('withkit/layout-a', [
+	register_block_pattern_category('withkit/with-layout-a', [
 		'label'       => __('With: Layout A', 'withkit'),
 		'description' => __('Layouts with wide heading and content', 'withkit'),
 	]);
-	register_block_pattern_category('withkit/layout-b', [
+	register_block_pattern_category('withkit/with-layout-b', [
 		'label'       => __('With: Layout B (Two Colums)', 'withkit'),
 		'description' => __('Two Column Layouts with heading and content aligned on top', 'withkit'),
 	]);
-	register_block_pattern_category('withkit/layout-c', [
+	register_block_pattern_category('withkit/with-layout-c', [
 		'label'       => __('With: Layout C (Two Colums)', 'withkit'),
 		'description' => __('Two Column Layouts with heading and content center aligned', 'withkit'),
 	]);
-	register_block_pattern_category('withkit/components', [
+	register_block_pattern_category('withkit/with-components', [
 		'label'       => __('With: Components', 'withkit'),
 		'description' => __('Single components for specific use.', 'withkit'),
 	]);
-	register_block_pattern_category('withkit/cards', [
+	register_block_pattern_category('withkit/with-cards', [
 		'label'       => __('With: Cards', 'withkit'),
 		'description' => __('Generic card layouts.', 'withkit'),
 	]);
-	register_block_pattern_category('withkit/faq', [
+	register_block_pattern_category('withkit/with-faq', [
 		'label'       => __('With: FAQ', 'withkit'),
 		'description' => __('Layout for the FAQ Section.', 'withkit'),
 	]);
-	register_block_pattern_category('withkit/heros', [
+	register_block_pattern_category('withkit/with-heros', [
 		'label'       => __('With: Heros', 'withkit'),
 		'description' => __('Layouts for the homepage above the fold.', 'withkit'),
 	]);
-		register_block_pattern_category('withkit/sticky', [
+		register_block_pattern_category('withkit/with-sticky', [
 		'label'       => __('With: Sticky', 'withkit'),
 		'description' => __('Layouts with sticky parts.', 'withkit'),
 	]);
