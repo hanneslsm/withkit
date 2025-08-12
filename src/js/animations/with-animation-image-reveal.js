@@ -7,13 +7,15 @@
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-const prefersReducedMotion = window.matchMedia( '(prefers-reduced-motion: reduce)' ).matches;
+const prefersReducedMotion = window.matchMedia(
+	'(prefers-reduced-motion: reduce)'
+).matches;
 
 if ( ! prefersReducedMotion ) {
 	gsap.registerPlugin( ScrollTrigger );
 }
 
-const figures  = document.querySelectorAll( '.with-animation-image-reveal' );
+const figures = document.querySelectorAll( '.with-animation-image-reveal' );
 const isMobile = window.matchMedia( '(max-width: 767px)' ).matches;
 const startPos = isMobile ? 'top bottom' : 'bottom 85%'; // fire earlier on small screens
 
