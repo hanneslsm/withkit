@@ -40,7 +40,7 @@
 				},
 				"variations": {
 					"outline":{
-						"css": "/** not supported, see src/styles */"
+						"css": "/** styled via scss */"
 					}
 				}
 			},
