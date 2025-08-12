@@ -38,11 +38,7 @@
 					"background": "var:preset|color|brand",
 					"text": "var:preset|color|base"
 				},
-				"variations": {
-					"outline":{
-						"css": "/** styled via scss */"
-					}
-				}
+				"css": "/** variations styled via scss */"
 			},
 			"core/separator":{
 				"color": {
