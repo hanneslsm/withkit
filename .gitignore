@@ -1,6 +1,13 @@
+##
+# withkit .gitignore
 # Ignore files and directories in the WithKit Starter theme
 # This file is used to specify intentionally untracked files that Git should ignore.
-
+#
+# @package withkit
+# @version 1.0.0
+#
+# 1.0.0: Initial version
+##
 
 # Packages
 #
