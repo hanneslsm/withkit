@@ -22,6 +22,17 @@
 	/* Section Styles
 	--------------------------------------------- */
 
+	/* [Brand-2]  */
+	.is-style-section-brand-2 & {
+		&:not(.has-background):hover {
+			background-color: color-mix(
+				in srgb,
+				var(--wp--preset--color--brand) 50%,
+				transparent
+			);
+			color: var(--wp--preset--color--base);
+		}
+	}
 	/* [Brand-3]  */
 	.is-style-section-brand-3 & {
 		&:not(.has-background):hover {
