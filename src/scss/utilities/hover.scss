@@ -102,3 +102,12 @@
 		transform: scale(1.02);
 	}
 }
+/**
+ * Grayscale Effect
+ * ============================================================== */
+.with-hover-grayscale {
+	filter: grayscale(100%);
+	&:hover {
+		filter: grayscale(0%);
+	}
+}
