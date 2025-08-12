@@ -5,7 +5,9 @@
 /* General: Buttons Styling
 --------------------------------------------- */
 .wp-block-button > .wp-block-button__link {
-	transition: all 200ms ease-in-out;
+	transition:
+		background-color,
+		scale 200ms ease-in-out;
 
 	&:hover {
 		box-shadow: var(--wp--preset--shadow--medium);
@@ -13,5 +15,19 @@
 
 	&:active {
 		scale: (0.98);
+	}
+}
+
+/* [Brand-2] */
+.is-style-section-brand-2 .wp-block-button > .wp-block-button__link {
+	transition:
+		background-color,
+		scale 200ms ease-in-out;
+	&:hover {
+		background-color: color-mix(
+			in srgb,
+			var(--wp--preset--color--brand) 50%,
+			transparent
+		);
 	}
 }

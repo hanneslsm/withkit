@@ -13,7 +13,7 @@
 	&:hover {
 		background-color: color-mix(
 			in srgb,
-			var(--wp--preset--color--base) 40%,
+			var(--wp--preset--color--base) 50%,
 			transparent
 		);
 		text-decoration: underline;
@@ -21,6 +21,17 @@
 
 	/* Section Styles
 	--------------------------------------------- */
+	/* [Brand-2]  */
+	.is-style-section-brand-2 & {
+		&:not(.has-background):hover {
+			background-color: color-mix(
+				in srgb,
+				var(--wp--preset--color--brand) 50%,
+				transparent
+			);
+		}
+	}
+
 	/* [Brand-3]  */
 	.is-style-section-brand-3 & {
 		&:not(.has-background):hover {

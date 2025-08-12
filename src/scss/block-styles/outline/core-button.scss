@@ -15,6 +15,23 @@
 
 	/* Section Styles
 	--------------------------------------------- */
+
+	/* [Brand-2]  */
+	.is-style-section-brand-2 & {
+		&:not(.has-background) {
+			background-color: transparent;
+			color: currentColor;
+			border: 1px solid var(--wp--preset--color--base);
+		}
+		&:hover {
+			background-color: color-mix(
+				in srgb,
+				var(--wp--preset--color--brand) 40%,
+				transparent
+			);
+		}
+	}
+
 	/* [Brand-3]  */
 	.is-style-section-brand-3 & {
 		&:not(.has-background) {

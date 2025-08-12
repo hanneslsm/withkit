@@ -10,10 +10,25 @@ p.is-style-overline {
 	display: inline-block;
 }
 
+/* [Brand-2]  */
+.is-style-section-brand-2 p.is-style-overline {
+	color: var(--wp--preset--color--brand-5);
+	font-weight: 400;
+	padding: 0 2ex;
+	background-color: var(--wp--preset--color--brand);
+	border-radius: 999px;
+}
+
+/* [Brand-3]  */
 .is-style-section-brand-3 p.is-style-overline {
 	color: var(--wp--preset--color--brand-5);
 	font-weight: 400;
 	padding: 0 2ex;
 	background-color: var(--wp--preset--color--brand-2);
 	border-radius: 999px;
+}
+
+/* [Contrast-2]  */
+.is-style-section-contrast-2 p.is-style-overline {
+	color: var(--wp--preset--color--brand-4);
 }
