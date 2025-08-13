@@ -18,3 +18,9 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	font-smooth: never;
 }
+
+code{
+	font-size: 0.9rem;
+	background-color: var(--wp--preset--color--base-3);
+	padding: 0.05rem 0.5ch;
+}
