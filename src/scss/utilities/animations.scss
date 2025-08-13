@@ -45,14 +45,20 @@
 	}
 }
 
-.with-animation-float{
+.with-animation-float {
 	animation: float 3s ease-in-out infinite;
 }
-.with-animation-float-2{
+.with-animation-float-2 {
 	animation: float 4s ease-in-out infinite;
 }
 @keyframes with-float {
-	0%   { transform: translateY(2px); }
-	50%  { transform: translateY(-2px); }
-	100% { transform: translateY(2px); }
+	0% {
+		transform: translateY(2px);
+	}
+	50% {
+		transform: translateY(-2px);
+	}
+	100% {
+		transform: translateY(2px);
+	}
 }
