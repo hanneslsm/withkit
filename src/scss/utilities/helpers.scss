@@ -166,6 +166,25 @@
 	opacity: 0;
 }
 
+/**
+ * Title: Position
+ **/
+.with-position-static {
+	position: static;
+}
+.with-position-relative {
+	position: relative;
+}
+.with-position-absolute {
+	position: absolute;
+}
+.with-position-fixed {
+	position: fixed;
+}
+.with-position-sticky {
+	position: sticky;
+}
+
 /* Responsive
 --------------------------------------------- */
 // One single mixin generates all breakpoint-specific utility classes.
